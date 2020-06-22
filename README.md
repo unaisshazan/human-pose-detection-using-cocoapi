@@ -14,11 +14,6 @@ Original Repo(Caffe) : https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 Implemented features are listed here : [features](./etcs/feature.md)
 
-## Important Updates
-
-- 2019.3.12 Add new models using mobilenet-v2 architecture. See : [experiments.md](./etcs/experiments.md)
-- 2018.5.21 Post-processing part is implemented in c++. It is required compiling the part. See: https://github.com/ildoonet/tf-pose-estimation/tree/master/src/pafprocess
-- 2018.2.7 Arguments in run.py script changed. Support dynamic input size.
 
 ## Install
 
@@ -50,7 +45,7 @@ $ cd tf-pose-estimation
 $ pip3 install -r requirements.txt
 ```
 
-Build c++ library for post processing. See : https://github.com/ildoonet/tf-pose-estimation/tree/master/tf_pose/pafprocess
+Build c++ library for post processing. See : https://www.github.com/unaisshazan/human-pose-detection-using-cocoapi.git
 ```
 $ cd tf_pose/pafprocess
 $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
